@@ -1,5 +1,33 @@
 # Employee Sentiment Analysis
 
+
+## 🛠️ Local Setup & Installation
+
+To run this project on your local machine, follow these steps:
+
+**1. Clone the Repository**
+Ensure you have the `test.csv` dataset in the root directory of this project.
+
+**2. Create a Virtual Environment**
+It is recommended to use a virtual environment to manage dependencies.
+
+# On Windows
+`python -m venv venv
+venv\Scripts\activate`
+
+# On Mac/Linux
+`python3 -m venv venv
+source venv/bin/activate`
+
+# **3. Install Dependencies**
+Install the required Python libraries using pip:
+
+
+```pip install pandas numpy matplotlib textblob scikit-learn jupyter```
+
+# **4. Run the Code**
+Launch Jupyter Notebook in your terminal and open the .ipynb file to view the analysis and interactive charts
+
 ## Project Overview
 This project analyzes an unlabeled dataset of employee communications to derive insights regarding sentiment and engagement. Using Natural Language Processing (TextBlob) and statistical analysis, the project evaluates monthly sentiment scores, ranks employees, identifies potential flight risks, and utilizes a linear regression model to predict sentiment trends.
 
